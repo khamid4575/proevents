@@ -60,7 +60,7 @@ export function AboutSection() {
             </div>
 
             {/* Stats Overlay */}
-            <div className="absolute -bottom-8 -left-8 bg-white rounded-lg shadow-xl p-6 grid grid-cols-2 gap-4">
+            <div className="md:absolute mt-10 -bottom-8 -left-8 bg-white rounded-lg shadow-xl p-6 grid grid-cols-2 gap-4">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="w-10 h-10 bg-brand-primary/10 rounded-full flex items-center justify-center mx-auto mb-2">
