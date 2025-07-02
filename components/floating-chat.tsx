@@ -31,14 +31,14 @@ export function FloatingChat() {
               size="sm"
               className="w-full justify-start bg-white text-gray-700 hover:bg-brand-primary/5 hover:text-brand-primary border-gray-300"
             >
-              WhatsApp: +998 90 123 45 67
+              Телефон: +998 90 805 82 84
             </Button>
             <Button
               variant="outline"
               size="sm"
               className="w-full justify-start bg-white text-gray-700 hover:bg-brand-primary/5 hover:text-brand-primary border-gray-300"
             >
-              Telegram: @proevents_uz
+              Телефон: +998 90 175 92 52
             </Button>
           </div>
         </div>

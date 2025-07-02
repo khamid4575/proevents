@@ -21,7 +21,7 @@ export default function Home() {
       <PartnersSection />
       <ContactSection />
       <Footer />
-      <FloatingChat />
+      {/* <FloatingChat /> */}
     </main>
   );
 }

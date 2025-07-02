@@ -133,22 +133,34 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Контактная информация</h4>
             <div className="space-y-3">
-              <div className="flex items-center group cursor-pointer">
+              {/* <div className="flex items-center">
                 <MapPin className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors group-hover:text-white" />
                 <span className="text-gray-300 transition-colors group-hover:text-white text-sm">
                   Ташкент, Узбекистан
                 </span>
-              </div>
-              <div className="flex items-center group cursor-pointer">
-                <Phone className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors group-hover:text-white" />
-                <span className="text-gray-300 transition-colors group-hover:text-white text-sm">
-                  +998 90 123 45 67
+              </div> */}
+              <div className="flex items-center">
+                <Phone className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors" />
+                <span className="text-gray-300 transition-colors hover:text-white cursor-pointer text-sm">
+                  +998 90 805 82 84
                 </span>
               </div>
-              <div className="flex items-center group cursor-pointer">
-                <Mail className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors group-hover:text-white" />
-                <span className="text-gray-300 transition-colors group-hover:text-white text-sm">
+              <div className="flex items-center">
+                <Phone className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors" />
+                <span className="text-gray-300 transition-colors hover:text-white cursor-pointer text-sm">
+                  +998 90 175 92 52
+                </span>
+              </div>
+              <div className="flex items-center">
+                <Mail className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors" />
+                <span className="text-gray-300 transition-colors hover:text-white cursor-pointer text-sm">
                   info@proevents.uz
+                </span>
+              </div>
+              <div className="flex items-center">
+                <Mail className="h-5 w-5 mr-3 flex-shrink-0 text-brand-accent transition-colors" />
+                <span className="text-gray-300 transition-colors hover:text-white cursor-pointer text-sm">
+                  support@provevents.uz
                 </span>
               </div>
             </div>
