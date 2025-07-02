@@ -2,12 +2,12 @@
 
 import type React from "react";
 
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Phone, Mail, Send } from "lucide-react";
+import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { useState } from "react";
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -60,9 +60,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Адрес</h4>
                   <p className="text-gray-600">
-                    Узбекистан, г Ташкент
-                    <br />
-                    район Юнусобод, улица Абдулла Кадирий дом 31
+                    г. Ташкент, Яккасарайский район, ул. Бaбура 34
                   </p>
                 </div>
               </div>
@@ -93,11 +91,11 @@ export function ContactSection() {
             {/* Map Placeholder */}
             <div className="mt-8 aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
               <iframe
-              className="w-full h-full rounded-lg"
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A82d8f032af9225f252d889a9cb871f5f8d48e77658d65f26e3a9b5092297329e&amp;source=constructor"
-                // width="590"
-                // height="330"
-                frameBorder="0"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A70d9971d75642d14270b3c080f6ef7b95acd4ace6ade8860ef8c51737bac54b1&amp;source=constructor"
+                loading="lazy"
+                title={`г. Ташкент, Яккасарайский район, ул. Бaбура 34`}
+                aria-label="Interactive map showing Pro Events location"
+                className="w-full h-full rounded-lg"
               ></iframe>
               {/* <p className="text-gray-500">Google Maps Integration</p> */}
             </div>
